@@ -41,7 +41,7 @@ components:
       x-longDescription: The values shall indicate the file sharing protocols supported
         by the file system. At least one value shall be present.
     FileSystem_FileSystem:
-      $ref: ./swordfish/FileSystem.v1_4_2.yaml#/components/schemas/FileSystem_v1_4_2_FileSystem
+      $ref: ./FileSystem.v1_4_2.yaml#/components/schemas/FileSystem_v1_4_2_FileSystem
       description: A hierarchical namespace of files.
       x-longDescription: This resource shall be used to represent a hierarchical namespace
         of files.

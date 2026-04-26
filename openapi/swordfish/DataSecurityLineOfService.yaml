@@ -1,7 +1,7 @@
 components:
   schemas:
     DataSecurityLineOfService_DataSecurityLineOfService:
-      $ref: ./swordfish/DataSecurityLineOfService.v1_1_1.yaml#/components/schemas/DataSecurityLineOfService_v1_1_1_DataSecurityLineOfService
+      $ref: ./DataSecurityLineOfService.v1_1_1.yaml#/components/schemas/DataSecurityLineOfService_v1_1_1_DataSecurityLineOfService
       description: The capabilities to protect the system data from loss.
       x-longDescription: The capabilities to protect data from loss by the use of
         a replica. The requirements must be met collectively by the communication

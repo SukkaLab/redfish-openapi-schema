@@ -29,7 +29,7 @@ components:
         '@odata.type':
           $ref: ./odata-v4.yaml#/definitions/type
         AccessState:
-          $ref: ./swordfish/EndpointGroup.yaml#/components/schemas/EndpointGroup_AccessState
+          $ref: ./EndpointGroup.yaml#/components/schemas/EndpointGroup_AccessState
           description: Access State for this group.
           nullable: true
           readOnly: false

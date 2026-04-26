@@ -20,7 +20,7 @@ components:
       x-longDescription: The enumeration literals may be used to specify the fault
         domain for the replication relationship.
     StorageReplicaInfo_ReplicaInfo:
-      $ref: ./swordfish/StorageReplicaInfo.v1_4_0.yaml#/components/schemas/StorageReplicaInfo_v1_4_0_ReplicaInfo
+      $ref: ./StorageReplicaInfo.v1_4_0.yaml#/components/schemas/StorageReplicaInfo_v1_4_0_ReplicaInfo
       description: Defines the characteristics of a replica of a source.
       x-longDescription: The value shall define the characteristics of a replica of
         a source.
@@ -73,7 +73,7 @@ components:
       x-longDescription: The enumeration literals may be used to specify whether the
         target elements will be updated synchronously or asynchronously.
     StorageReplicaInfo_StorageReplicaInfo:
-      $ref: ./swordfish/StorageReplicaInfo.v1_4_0.yaml#/components/schemas/StorageReplicaInfo_v1_4_0_StorageReplicaInfo
+      $ref: ./StorageReplicaInfo.v1_4_0.yaml#/components/schemas/StorageReplicaInfo_v1_4_0_StorageReplicaInfo
       description: Defines the characteristics of a Storage Replica.
       x-longDescription: This entity shall define the characteristics of a replica.
 title: '#StorageReplicaInfo.StorageReplicaInfo'

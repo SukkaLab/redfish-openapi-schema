@@ -60,7 +60,7 @@ components:
           description: Supported access capabilities.
           items:
             oneOf:
-            - $ref: ./swordfish/DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
+            - $ref: ./DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
             - enum:
               - null
           readOnly: false
@@ -69,7 +69,7 @@ components:
         SupportedLinesOfService:
           description: Collection of known and supported DataStorageLinesOfService.
           items:
-            $ref: ./swordfish/DataStorageLineOfService.yaml#/components/schemas/DataStorageLineOfService_DataStorageLineOfService
+            $ref: ./DataStorageLineOfService.yaml#/components/schemas/DataStorageLineOfService_DataStorageLineOfService
           readOnly: false
           type: array
           x-autoExpand: true
@@ -80,7 +80,7 @@ components:
           description: Thin allows over allocation of storage.
           items:
             oneOf:
-            - $ref: ./swordfish/DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_ProvisioningPolicy
+            - $ref: ./DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_ProvisioningPolicy
             - enum:
               - null
           readOnly: false
@@ -92,7 +92,7 @@ components:
             after recovery.
           items:
             oneOf:
-            - $ref: ./swordfish/DataProtectionLoSCapabilities.yaml#/components/schemas/DataProtectionLoSCapabilities_RecoveryAccessScope
+            - $ref: ./DataProtectionLoSCapabilities.yaml#/components/schemas/DataProtectionLoSCapabilities_RecoveryAccessScope
             - enum:
               - null
           readOnly: false

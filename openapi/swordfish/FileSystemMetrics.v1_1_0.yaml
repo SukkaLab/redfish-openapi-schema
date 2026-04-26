@@ -58,7 +58,7 @@ components:
             - null
           readOnly: true
         IOStatistics:
-          $ref: ./swordfish/IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
+          $ref: ./IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
           description: Statistics for this file system.
           x-longDescription: The value shall represent IO statistics for this file
             system.

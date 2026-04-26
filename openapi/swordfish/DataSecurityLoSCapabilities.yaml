@@ -81,7 +81,7 @@ components:
       x-longDescription: The enumberation literals shall specify types of data sanitization
         policies.
     DataSecurityLoSCapabilities_DataSecurityLoSCapabilities:
-      $ref: ./swordfish/DataSecurityLoSCapabilities.v1_2_0.yaml#/components/schemas/DataSecurityLoSCapabilities_v1_2_0_DataSecurityLoSCapabilities
+      $ref: ./DataSecurityLoSCapabilities.v1_2_0.yaml#/components/schemas/DataSecurityLoSCapabilities_v1_2_0_DataSecurityLoSCapabilities
       description: Describe data security capabilities.
       x-longDescription: This resource may be used to describe data security capabilities.
     DataSecurityLoSCapabilities_KeySize:

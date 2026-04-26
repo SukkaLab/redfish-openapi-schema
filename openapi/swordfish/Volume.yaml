@@ -297,7 +297,7 @@ components:
         ReadAhead: A caching technique in which the controller pre-fetches data anticipating
           future read requests.
     Volume_Volume:
-      $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+      $ref: ./Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
       description: Volume contains properties used to describe a volume, virtual disk,
         LUN, or other logical storage entity for any system.
       x-longDescription: This resource shall be used to represent a volume, virtual

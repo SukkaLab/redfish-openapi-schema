@@ -47,7 +47,7 @@ components:
           description: Supported policies that trigger an AntiVirus scan.
           items:
             oneOf:
-            - $ref: ./swordfish/DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_AntiVirusScanTrigger
+            - $ref: ./DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_AntiVirusScanTrigger
             - enum:
               - null
           readOnly: false
@@ -58,7 +58,7 @@ components:
           description: Supported key sizes for transport channel encryption.
           items:
             oneOf:
-            - $ref: ./swordfish/DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_KeySize
+            - $ref: ./DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_KeySize
             - enum:
               - null
           readOnly: false
@@ -69,7 +69,7 @@ components:
           description: Supported data sanitization policies.
           items:
             oneOf:
-            - $ref: ./swordfish/DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_DataSanitizationPolicy
+            - $ref: ./DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_DataSanitizationPolicy
             - enum:
               - null
           readOnly: false
@@ -81,7 +81,7 @@ components:
             endpoints.
           items:
             oneOf:
-            - $ref: ./swordfish/DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_AuthenticationType
+            - $ref: ./DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_AuthenticationType
             - enum:
               - null
           readOnly: false
@@ -91,7 +91,7 @@ components:
         SupportedLinesOfService:
           description: Collection of known and supported DataSecurityLinesOfService.
           items:
-            $ref: ./swordfish/DataSecurityLineOfService.yaml#/components/schemas/DataSecurityLineOfService_DataSecurityLineOfService
+            $ref: ./DataSecurityLineOfService.yaml#/components/schemas/DataSecurityLineOfService_DataSecurityLineOfService
           readOnly: false
           type: array
           x-autoExpand: true
@@ -103,7 +103,7 @@ components:
           description: Supported key sizes for media encryption.
           items:
             oneOf:
-            - $ref: ./swordfish/DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_KeySize
+            - $ref: ./DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_KeySize
             - enum:
               - null
           readOnly: false
@@ -114,7 +114,7 @@ components:
           description: Supported protocols that provide encrypted communication.
           items:
             oneOf:
-            - $ref: ./swordfish/DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_SecureChannelProtocol
+            - $ref: ./DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_SecureChannelProtocol
             - enum:
               - null
           readOnly: false
@@ -125,7 +125,7 @@ components:
           description: Supported authentication types for users (or programs).
           items:
             oneOf:
-            - $ref: ./swordfish/DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_AuthenticationType
+            - $ref: ./DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_AuthenticationType
             - enum:
               - null
           readOnly: false

@@ -68,7 +68,7 @@ components:
         NVMeDeviceType:
           description: The type of NVMe Device this image is associated with.
           oneOf:
-          - $ref: ./swordfish/NVMeFirmwareImage.yaml#/components/schemas/NVMeFirmwareImage_NVMeDeviceType
+          - $ref: ./NVMeFirmwareImage.yaml#/components/schemas/NVMeFirmwareImage_NVMeDeviceType
           - enum:
             - null
           readOnly: true

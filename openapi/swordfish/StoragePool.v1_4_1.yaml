@@ -51,7 +51,7 @@ components:
         to a capacity source for the storage pool.
       properties:
         CapacitySource:
-          $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_CapacitySource
+          $ref: ./Capacity.yaml#/components/schemas/Capacity_CapacitySource
           description: The capacity source to be extended.
           x-longDescription: This parameter shall contain the target capacity source
             for the drive(s). This property does not need to be specified if the storage
@@ -587,14 +587,14 @@ components:
             valid (for example, with Memory), enter a 1.
           x-units: By
         Capacity:
-          $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_Capacity
+          $ref: ./Capacity.yaml#/components/schemas/Capacity_Capacity
           description: Capacity utilization.
           x-longDescription: The value of this property shall provide an information
             about the actual utilization of the capacity within this storage pool.
         CapacitySources:
           description: An array of space allocations to this store.
           items:
-            $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_CapacitySource
+            $ref: ./Capacity.yaml#/components/schemas/Capacity_CapacitySource
           readOnly: false
           type: array
           x-autoExpand: true
@@ -655,7 +655,7 @@ components:
             StoragePool is currently utilizing encryption or not.
           x-versionAdded: v1_3_0
         IOStatistics:
-          $ref: ./swordfish/IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
+          $ref: ./IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
           description: Statistics for this StoragePool.
           x-longDescription: The value shall represent IO statistics for this StoragePool.
           x-versionAdded: v1_2_0
@@ -759,7 +759,7 @@ components:
             properties for the Storage Pool.
           items:
             oneOf:
-            - $ref: ./swordfish/DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_ProvisioningPolicy
+            - $ref: ./DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_ProvisioningPolicy
             - enum:
               - null
           readOnly: false
@@ -771,7 +771,7 @@ components:
           description: A collection of the RAID Types supported by the storage pool.
           items:
             oneOf:
-            - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_RAIDType
+            - $ref: ./Volume.yaml#/components/schemas/Volume_RAIDType
             - enum:
               - null
           readOnly: true

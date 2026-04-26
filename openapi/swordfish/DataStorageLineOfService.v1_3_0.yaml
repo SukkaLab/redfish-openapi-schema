@@ -33,7 +33,7 @@ components:
           description: Required access capabilities.
           items:
             oneOf:
-            - $ref: ./swordfish/DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
+            - $ref: ./DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
             - enum:
               - null
           readOnly: false
@@ -74,7 +74,7 @@ components:
         ProvisioningPolicy:
           description: Provisioning policy for storage.
           oneOf:
-          - $ref: ./swordfish/DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_ProvisioningPolicy
+          - $ref: ./DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_ProvisioningPolicy
           - enum:
             - null
           readOnly: false
@@ -96,7 +96,7 @@ components:
           description: Expectations for time to access the primary store after disaster
             recover.
           oneOf:
-          - $ref: ./swordfish/DataProtectionLoSCapabilities.yaml#/components/schemas/DataProtectionLoSCapabilities_RecoveryAccessScope
+          - $ref: ./DataProtectionLoSCapabilities.yaml#/components/schemas/DataProtectionLoSCapabilities_RecoveryAccessScope
           - enum:
             - null
           readOnly: false

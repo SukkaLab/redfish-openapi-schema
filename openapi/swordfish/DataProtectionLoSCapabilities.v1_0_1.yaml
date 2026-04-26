@@ -43,7 +43,7 @@ components:
         SupportedLinesOfService:
           description: Collection of known and supported DataProtectionLinesOfService.
           items:
-            $ref: ./swordfish/DataProtectionLineOfService.yaml#/components/schemas/DataProtectionLineOfService_DataProtectionLineOfService
+            $ref: ./DataProtectionLineOfService.yaml#/components/schemas/DataProtectionLineOfService_DataProtectionLineOfService
           readOnly: false
           type: array
           x-autoExpand: true
@@ -63,7 +63,7 @@ components:
           description: Supported types of failure domains.
           items:
             oneOf:
-            - $ref: ./swordfish/DataProtectionLoSCapabilities.yaml#/components/schemas/DataProtectionLoSCapabilities_FailureDomainScope
+            - $ref: ./DataProtectionLoSCapabilities.yaml#/components/schemas/DataProtectionLoSCapabilities_FailureDomainScope
             - enum:
               - null
           readOnly: false
@@ -86,7 +86,7 @@ components:
           description: Supported expectations for time to access an alternate replica.
           items:
             oneOf:
-            - $ref: ./swordfish/DataProtectionLoSCapabilities.yaml#/components/schemas/DataProtectionLoSCapabilities_RecoveryAccessScope
+            - $ref: ./DataProtectionLoSCapabilities.yaml#/components/schemas/DataProtectionLoSCapabilities_RecoveryAccessScope
             - enum:
               - null
           readOnly: false
@@ -99,7 +99,7 @@ components:
           description: Supported replica types.
           items:
             oneOf:
-            - $ref: ./swordfish/StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaType
+            - $ref: ./StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaType
             - enum:
               - null
           readOnly: false

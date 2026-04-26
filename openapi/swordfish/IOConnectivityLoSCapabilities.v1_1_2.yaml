@@ -92,7 +92,7 @@ components:
         SupportedLinesOfService:
           description: Collection of known and supported IOConnectivityLinesOfService.
           items:
-            $ref: ./swordfish/IOConnectivityLineOfService.yaml#/components/schemas/IOConnectivityLineOfService_IOConnectivityLineOfService
+            $ref: ./IOConnectivityLineOfService.yaml#/components/schemas/IOConnectivityLineOfService_IOConnectivityLineOfService
           readOnly: false
           type: array
           x-autoExpand: true

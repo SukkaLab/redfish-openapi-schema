@@ -50,7 +50,7 @@ components:
             The types of default access can include Read, Write, and/or Execute.
           items:
             oneOf:
-            - $ref: ./swordfish/DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
+            - $ref: ./DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
             - enum:
               - null
           readOnly: true
@@ -123,7 +123,7 @@ components:
           description: An array of file sharing protocols supported by this file share.
           items:
             oneOf:
-            - $ref: ./swordfish/FileSystem.yaml#/components/schemas/FileSystem_FileProtocol
+            - $ref: ./FileSystem.yaml#/components/schemas/FileSystem_FileProtocol
             - enum:
               - null
           readOnly: true
@@ -194,7 +194,7 @@ components:
         WritePolicy:
           description: Defines how writes are replicated to the shared source.
           oneOf:
-          - $ref: ./swordfish/StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaUpdateMode
+          - $ref: ./StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaUpdateMode
           - enum:
             - null
           readOnly: true

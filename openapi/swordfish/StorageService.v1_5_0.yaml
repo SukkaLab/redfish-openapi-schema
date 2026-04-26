@@ -251,7 +251,7 @@ components:
             of this service.
           x-versionAdded: v1_2_0
         IOStatistics:
-          $ref: ./swordfish/IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
+          $ref: ./IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
           description: Statistics for this StorageService.
           x-longDescription: The value shall represent IO statistics for this StorageService.
           x-versionAdded: v1_2_0

@@ -1,7 +1,7 @@
 components:
   schemas:
     StorageService_StorageService:
-      $ref: ./swordfish/StorageService.v1_7_0.yaml#/components/schemas/StorageService_v1_7_0_StorageService
+      $ref: ./StorageService.v1_7_0.yaml#/components/schemas/StorageService_v1_7_0_StorageService
       description: A storage service.
       x-longDescription: This resource shall be used to represent resources that are
         managed by a storage service.

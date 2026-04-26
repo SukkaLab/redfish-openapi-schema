@@ -1,7 +1,7 @@
 components:
   schemas:
     DataStorageLineOfService_DataStorageLineOfService:
-      $ref: ./swordfish/DataStorageLineOfService.v1_3_1.yaml#/components/schemas/DataStorageLineOfService_v1_3_1_DataStorageLineOfService
+      $ref: ./DataStorageLineOfService.v1_3_1.yaml#/components/schemas/DataStorageLineOfService_v1_3_1_DataStorageLineOfService
       description: Describe data storage and provisioning capabilities.
       x-longDescription: This resource shall be used to describe storage availability
         and provisioning capabilities.

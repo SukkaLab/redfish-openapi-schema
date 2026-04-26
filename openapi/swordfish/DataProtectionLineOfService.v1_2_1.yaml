@@ -114,7 +114,7 @@ components:
         RecoveryGeographicObjective:
           description: Geographic distribution scopes.
           oneOf:
-          - $ref: ./swordfish/DataProtectionLoSCapabilities.yaml#/components/schemas/DataProtectionLoSCapabilities_FailureDomainScope
+          - $ref: ./DataProtectionLoSCapabilities.yaml#/components/schemas/DataProtectionLoSCapabilities_FailureDomainScope
           - enum:
             - null
           readOnly: false
@@ -133,7 +133,7 @@ components:
           description: An enumeration value that indicates the expected time to access
             an alternate replica.
           oneOf:
-          - $ref: ./swordfish/DataProtectionLoSCapabilities.yaml#/components/schemas/DataProtectionLoSCapabilities_RecoveryAccessScope
+          - $ref: ./DataProtectionLoSCapabilities.yaml#/components/schemas/DataProtectionLoSCapabilities_RecoveryAccessScope
           - enum:
             - null
           readOnly: false
@@ -157,7 +157,7 @@ components:
         ReplicaType:
           description: Type of replica.
           oneOf:
-          - $ref: ./swordfish/StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaType
+          - $ref: ./StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaType
           - enum:
             - null
           readOnly: false

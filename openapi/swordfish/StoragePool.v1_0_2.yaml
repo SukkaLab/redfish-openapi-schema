@@ -181,14 +181,14 @@ components:
             valid (for example, with Memory), enter a 1.
           x-units: By
         Capacity:
-          $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_Capacity
+          $ref: ./Capacity.yaml#/components/schemas/Capacity_Capacity
           description: Capacity utilization.
           x-longDescription: The value of this property shall provide an information
             about the actual utilization of the capacity within this storage pool.
         CapacitySources:
           description: An array of space allocations to this store.
           items:
-            $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_CapacitySource
+            $ref: ./Capacity.yaml#/components/schemas/Capacity_CapacitySource
           readOnly: false
           type: array
           x-autoExpand: true

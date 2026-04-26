@@ -85,7 +85,7 @@ components:
         ^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\.[a-zA-Z_][a-zA-Z0-9_]*$:
           description: This property shall specify a valid odata or Redfish property.
     Capacity_CapacitySource:
-      $ref: ./swordfish/Capacity.v1_2_2.yaml#/components/schemas/Capacity_v1_2_2_CapacitySource
+      $ref: ./Capacity.v1_2_2.yaml#/components/schemas/Capacity_v1_2_2_CapacitySource
       description: A description of the type and source of storage.
       x-longDescription: This type may be used to represent the source and type of
         storage capacity.  At most one of the ProvidingDrives, ProvidingVolumes or

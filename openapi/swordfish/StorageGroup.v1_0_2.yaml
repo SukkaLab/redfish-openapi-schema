@@ -213,7 +213,7 @@ components:
             values for properties that this object contains shall conform to the Redfish
             Specification-described requirements.
         ReplicaInfo:
-          $ref: ./swordfish/StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaInfo
+          $ref: ./StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaInfo
           deprecated: true
           description: Describes this storage group in its role as a target for replication.
           x-deprecatedReason: Deprecated in favor of using the ConsistencyGroup for

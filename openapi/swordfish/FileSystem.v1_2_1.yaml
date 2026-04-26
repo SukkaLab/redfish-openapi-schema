@@ -73,7 +73,7 @@ components:
           description: An array of supported IO access capabilities.
           items:
             oneOf:
-            - $ref: ./swordfish/DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
+            - $ref: ./DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
             - enum:
               - null
           readOnly: false
@@ -97,14 +97,14 @@ components:
             the file system in bytes.
           x-units: By
         Capacity:
-          $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_Capacity
+          $ref: ./Capacity.yaml#/components/schemas/Capacity_Capacity
           description: Capacity allocated to the file system.
           x-longDescription: The value of this property shall be the capacity allocated
             to the file system in bytes.
         CapacitySources:
           description: An array of capacity sources for the file system.
           items:
-            $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_CapacitySource
+            $ref: ./Capacity.yaml#/components/schemas/Capacity_CapacitySource
           readOnly: false
           type: array
           x-longDescription: This property shall be an array containing entries for
@@ -169,7 +169,7 @@ components:
             of this file system. Each entry shall define an exported file share of
             this file system.
         IOStatistics:
-          $ref: ./swordfish/IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
+          $ref: ./IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
           description: Statistics for this FileSystem.
           x-longDescription: The value shall represent IO statistics for this FileSystem.
           x-versionAdded: v1_2_0
@@ -187,7 +187,7 @@ components:
         ImportedShares:
           description: An array of imported file shares.
           items:
-            $ref: ./swordfish/FileSystem.yaml#/components/schemas/FileSystem_ImportedShare
+            $ref: ./FileSystem.yaml#/components/schemas/FileSystem_ImportedShare
           type: array
           x-longDescription: The value shall be an array of imported file shares.
           x-versionAdded: v1_0_1
@@ -247,7 +247,7 @@ components:
             source resource fails.
           x-versionAdded: v1_2_0
         RemainingCapacity:
-          $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_Capacity
+          $ref: ./Capacity.yaml#/components/schemas/Capacity_Capacity
           deprecated: true
           description: Remaining capacity allocated to the file system.
           x-deprecatedReason: 'This property is deprecated in favor of the Capacity
@@ -267,7 +267,7 @@ components:
             value.
           x-versionAdded: v1_1_0
         ReplicaInfo:
-          $ref: ./swordfish/StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaInfo
+          $ref: ./StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaInfo
           description: This value describes the replica attributes if this file system
             is a replica.
           x-longDescription: If this file system is a replica, this value shall describe

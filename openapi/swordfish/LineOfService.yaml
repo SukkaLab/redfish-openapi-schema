@@ -1,7 +1,7 @@
 components:
   schemas:
     LineOfService_LineOfService:
-      $ref: ./swordfish/LineOfService.v1_1_0.yaml#/components/schemas/LineOfService_v1_1_0_LineOfService
+      $ref: ./LineOfService.v1_1_0.yaml#/components/schemas/LineOfService_v1_1_0_LineOfService
       description: Describes a service option.
       x-longDescription: This service option is the abstract base class for other
         ClassOfService and concrete lines of service.

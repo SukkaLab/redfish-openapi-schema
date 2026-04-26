@@ -21,7 +21,7 @@ components:
         Members:
           description: The value of each member references a CapacitySource resource.
           items:
-            $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_CapacitySource
+            $ref: ./Capacity.yaml#/components/schemas/Capacity_CapacitySource
           readOnly: true
           type: array
           x-longDescription: The value of each member entry shall reference a CapacitySource

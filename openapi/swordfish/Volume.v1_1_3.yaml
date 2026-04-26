@@ -121,7 +121,7 @@ components:
           description: Supported IO access capabilities.
           items:
             oneOf:
-            - $ref: ./swordfish/DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
+            - $ref: ./DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
             - enum:
               - null
           readOnly: false
@@ -152,7 +152,7 @@ components:
             unit of the associated volume.
           x-units: By
         Capacity:
-          $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_Capacity
+          $ref: ./Capacity.yaml#/components/schemas/Capacity_Capacity
           description: Capacity utilization.
           x-longDescription: Information about the utilization of capacity allocated
             to this storage volume.
@@ -169,7 +169,7 @@ components:
         CapacitySources:
           description: An array of space allocations to this volume.
           items:
-            $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_CapacitySource
+            $ref: ./Capacity.yaml#/components/schemas/Capacity_CapacitySource
           readOnly: false
           type: array
           x-autoExpand: true
@@ -195,7 +195,7 @@ components:
         EncryptionTypes:
           description: The types of encryption used by this Volume.
           items:
-            $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_EncryptionTypes
+            $ref: ./Volume.yaml#/components/schemas/Volume_EncryptionTypes
           readOnly: false
           type: array
           x-longDescription: This property shall contain the types of encryption used
@@ -283,7 +283,7 @@ components:
             size. For physical disks, this describes the physical sector size.
           x-units: By
         ReplicaInfo:
-          $ref: ./swordfish/StorageReplicaInfo.v1_4_0.yaml#/components/schemas/StorageReplicaInfo_v1_4_0_ReplicaInfo
+          $ref: ./StorageReplicaInfo.v1_4_0.yaml#/components/schemas/StorageReplicaInfo_v1_4_0_ReplicaInfo
           description: Describes this storage volume in its role as a target replica.
           x-longDescription: This property shall describe the replica relationship
             between this storage volume and a corresponding source volume.
@@ -304,7 +304,7 @@ components:
           deprecated: true
           description: The type of this volume.
           oneOf:
-          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_VolumeType
+          - $ref: ./Volume.yaml#/components/schemas/Volume_VolumeType
           - enum:
             - null
           readOnly: true

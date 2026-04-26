@@ -164,7 +164,7 @@ components:
           description: ReplicaFaultDomain describes the fault domain (local or remote)
             of the replica relationship.
           oneOf:
-          - $ref: ./swordfish/StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaFaultDomain
+          - $ref: ./StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaFaultDomain
           - enum:
             - null
           readOnly: true
@@ -249,7 +249,7 @@ components:
         ReplicaType:
           description: ReplicaType describes the intended outcome of the replication.
           oneOf:
-          - $ref: ./swordfish/StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaType
+          - $ref: ./StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaType
           - enum:
             - null
           readOnly: true
@@ -259,7 +259,7 @@ components:
           description: Describes whether the target elements will be updated synchronously
             or asynchronously.
           oneOf:
-          - $ref: ./swordfish/StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaUpdateMode
+          - $ref: ./StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaUpdateMode
           - enum:
             - null
           readOnly: true

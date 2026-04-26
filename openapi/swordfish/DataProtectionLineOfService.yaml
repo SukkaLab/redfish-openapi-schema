@@ -1,7 +1,7 @@
 components:
   schemas:
     DataProtectionLineOfService_DataProtectionLineOfService:
-      $ref: ./swordfish/DataProtectionLineOfService.v1_3_0.yaml#/components/schemas/DataProtectionLineOfService_v1_3_0_DataProtectionLineOfService
+      $ref: ./DataProtectionLineOfService.v1_3_0.yaml#/components/schemas/DataProtectionLineOfService_v1_3_0_DataProtectionLineOfService
       description: Describes a data protection service option.
       x-longDescription: This service option describes a replica that protects data
         from loss. The requirements must be met collectively by the communication

@@ -59,7 +59,7 @@ components:
             * VolumeSize. Otherwise, the system shall not enforce a limit.  The default
             value for this property is false.
         IOWorkload:
-          $ref: ./swordfish/IOPerformanceLoSCapabilities.v1_0_0.yaml#/components/schemas/IOPerformanceLoSCapabilities_v1_0_0_IOWorkload
+          $ref: ./IOPerformanceLoSCapabilities.v1_0_0.yaml#/components/schemas/IOPerformanceLoSCapabilities_v1_0_0_IOWorkload
           description: A description of the expected workload.
           x-longDescription: The value shall be a description of the expected workload.
             The workload provides the context in which the values of MaxIOOperationsPerSecondPerTerabyte

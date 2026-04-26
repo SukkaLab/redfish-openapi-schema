@@ -73,12 +73,12 @@ components:
         source volume.
       properties:
         ReplicaType:
-          $ref: ./swordfish/StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaType
+          $ref: ./StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaType
           description: The type of replica relationship to be created.
           x-longDescription: This parameter shall contain the type of replica relationship
             to be created (e.g., Clone, Mirror, Snap).
         ReplicaUpdateMode:
-          $ref: ./swordfish/StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaUpdateMode
+          $ref: ./StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaUpdateMode
           description: The replica update mode (synchronous vs asynchronous).
           x-longDescription: This parameter shall specify the replica update mode.
         TargetVolume:
@@ -139,7 +139,7 @@ components:
             media elements used per span in the secondary RAID for a hierarchical
             RAID type.
         RAIDType:
-          $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_RAIDType
+          $ref: ./Volume.yaml#/components/schemas/Volume_RAIDType
           description: The requested RAID type for the volume.
           x-longDescription: This parameter shall contain the requested RAID type
             for the volume.
@@ -216,12 +216,12 @@ components:
         source volume.
       properties:
         ReplicaType:
-          $ref: ./swordfish/StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaType
+          $ref: ./StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaType
           description: The type of replica relationship to be created.
           x-longDescription: This parameter shall contain the type of replica relationship
             to be created (e.g., Clone, Mirror, Snap).
         ReplicaUpdateMode:
-          $ref: ./swordfish/StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaUpdateMode
+          $ref: ./StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaUpdateMode
           description: The replica update mode (synchronous vs asynchronous).
           x-longDescription: This parameter shall specify the replica update mode.
         TargetStoragePool:
@@ -308,11 +308,11 @@ components:
         be Foreground.
       properties:
         InitializeMethod:
-          $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_InitializeMethod
+          $ref: ./Volume.yaml#/components/schemas/Volume_InitializeMethod
           description: The type of initialization to be performed.
           x-longDescription: This defines the property name for the action.
         InitializeType:
-          $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_InitializeType
+          $ref: ./Volume.yaml#/components/schemas/Volume_InitializeType
           deprecated: true
           description: The type of initialization to be performed.
           x-deprecatedReason: Deprecated in favor of the InitializeMethod property.
@@ -339,7 +339,7 @@ components:
         LBAFormatType:
           description: The LBA format type.
           oneOf:
-          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_LBAFormatType
+          - $ref: ./Volume.yaml#/components/schemas/Volume_LBAFormatType
           - enum:
             - null
           readOnly: true
@@ -357,7 +357,7 @@ components:
         RelativePerformance:
           description: The LBA Relative Performance type.
           oneOf:
-          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_LBARelativePerformanceType
+          - $ref: ./Volume.yaml#/components/schemas/Volume_LBARelativePerformanceType
           - enum:
             - null
           readOnly: true
@@ -606,7 +606,7 @@ components:
             or potential namespaces.
           items:
             oneOf:
-            - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_LBAFormatType
+            - $ref: ./Volume.yaml#/components/schemas/Volume_LBAFormatType
             - enum:
               - null
           readOnly: true
@@ -653,7 +653,7 @@ components:
         NamespaceType:
           description: Identifies the type of namespace.
           oneOf:
-          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_NamespaceType
+          - $ref: ./Volume.yaml#/components/schemas/Volume_NamespaceType
           - enum:
             - null
           readOnly: true
@@ -694,7 +694,7 @@ components:
         Type:
           description: Identifies the type of namespace.
           oneOf:
-          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_NamespaceType
+          - $ref: ./Volume.yaml#/components/schemas/Volume_NamespaceType
           - enum:
             - null
           readOnly: true
@@ -787,7 +787,7 @@ components:
         Operation:
           description: The type of the operation.
           oneOf:
-          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_OperationType
+          - $ref: ./Volume.yaml#/components/schemas/Volume_OperationType
           - enum:
             - null
           readOnly: true
@@ -1037,7 +1037,7 @@ components:
           description: Supported IO access capabilities.
           items:
             oneOf:
-            - $ref: ./swordfish/DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
+            - $ref: ./DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
             - enum:
               - null
           readOnly: false
@@ -1068,7 +1068,7 @@ components:
             unit of the associated volume.
           x-units: By
         Capacity:
-          $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_Capacity
+          $ref: ./Capacity.yaml#/components/schemas/Capacity_Capacity
           description: Capacity utilization.
           x-longDescription: Information about the utilization of capacity allocated
             to this storage volume.
@@ -1085,7 +1085,7 @@ components:
         CapacitySources:
           description: An array of space allocations to this volume.
           items:
-            $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_CapacitySource
+            $ref: ./Capacity.yaml#/components/schemas/Capacity_CapacitySource
           readOnly: false
           type: array
           x-autoExpand: true
@@ -1146,7 +1146,7 @@ components:
         EncryptionTypes:
           description: The types of encryption used by this Volume.
           items:
-            $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_EncryptionTypes
+            $ref: ./Volume.yaml#/components/schemas/Volume_EncryptionTypes
           readOnly: false
           type: array
           x-longDescription: This property shall contain the types of encryption used
@@ -1160,7 +1160,7 @@ components:
             is enabled for the volume.
           x-versionAdded: v1_5_0
         IOStatistics:
-          $ref: ./swordfish/IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
+          $ref: ./IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
           deprecated: true
           description: Statistics for this volume.
           x-deprecatedReason: This property is deprecated in favor of the IOStatistics
@@ -1182,7 +1182,7 @@ components:
           description: Indicates the Initialization Method used for this volume. If
             InitializeMethod is not specified, the InitializeMethod should be Foreground.
           oneOf:
-          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_InitializeMethod
+          - $ref: ./Volume.yaml#/components/schemas/Volume_InitializeMethod
           - enum:
             - null
           readOnly: true
@@ -1318,7 +1318,7 @@ components:
           description: This property specifies the volume's storage allocation, or
             provisioning policy.
           oneOf:
-          - $ref: ./swordfish/DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_ProvisioningPolicy
+          - $ref: ./DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_ProvisioningPolicy
           - enum:
             - null
           readOnly: false
@@ -1328,7 +1328,7 @@ components:
         RAIDType:
           description: The RAID type of this volume.
           oneOf:
-          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_RAIDType
+          - $ref: ./Volume.yaml#/components/schemas/Volume_RAIDType
           - enum:
             - null
           readOnly: true
@@ -1338,7 +1338,7 @@ components:
         ReadCachePolicy:
           description: Indicates the read cache policy setting for the Volume.
           oneOf:
-          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_ReadCachePolicyType
+          - $ref: ./Volume.yaml#/components/schemas/Volume_ReadCachePolicyType
           - enum:
             - null
           readOnly: false
@@ -1379,7 +1379,7 @@ components:
             is managed by a separate Swordfish service instance.
           x-versionAdded: v1_8_0
         ReplicaInfo:
-          $ref: ./swordfish/StorageReplicaInfo.v1_4_0.yaml#/components/schemas/StorageReplicaInfo_v1_4_0_ReplicaInfo
+          $ref: ./StorageReplicaInfo.v1_4_0.yaml#/components/schemas/StorageReplicaInfo_v1_4_0_ReplicaInfo
           description: Describes this storage volume in its role as a target replica.
           x-longDescription: This property shall describe the replica relationship
             between this storage volume and a corresponding source volume.
@@ -1436,7 +1436,7 @@ components:
           deprecated: true
           description: The type of this volume.
           oneOf:
-          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_VolumeType
+          - $ref: ./Volume.yaml#/components/schemas/Volume_VolumeType
           - enum:
             - null
           readOnly: true
@@ -1446,7 +1446,7 @@ components:
         VolumeUsage:
           description: Indicates the Volume usage type setting for the Volume.
           oneOf:
-          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_VolumeUsageType
+          - $ref: ./Volume.yaml#/components/schemas/Volume_VolumeUsageType
           - enum:
             - null
           readOnly: true
@@ -1456,7 +1456,7 @@ components:
         WriteCachePolicy:
           description: Indicates the write cache policy setting for the Volume.
           oneOf:
-          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_WriteCachePolicyType
+          - $ref: ./Volume.yaml#/components/schemas/Volume_WriteCachePolicyType
           - enum:
             - null
           readOnly: false
@@ -1466,7 +1466,7 @@ components:
         WriteCacheState:
           description: Indicates the WriteCacheState policy setting for the Volume.
           oneOf:
-          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_WriteCacheStateType
+          - $ref: ./Volume.yaml#/components/schemas/Volume_WriteCacheStateType
           - enum:
             - null
           readOnly: true
@@ -1474,7 +1474,7 @@ components:
             setting for the Volume.
           x-versionAdded: v1_4_0
         WriteHoleProtectionPolicy:
-          $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_WriteHoleProtectionPolicyType
+          $ref: ./Volume.yaml#/components/schemas/Volume_WriteHoleProtectionPolicyType
           description: The policy that the RAID volume is using to address the write
             hole issue.
           readOnly: false

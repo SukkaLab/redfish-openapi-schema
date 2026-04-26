@@ -1,7 +1,7 @@
 components:
   schemas:
     IOPerformanceLineOfService_IOPerformanceLineOfService:
-      $ref: ./swordfish/IOPerformanceLineOfService.v1_1_1.yaml#/components/schemas/IOPerformanceLineOfService_v1_1_1_IOPerformanceLineOfService
+      $ref: ./IOPerformanceLineOfService.v1_1_1.yaml#/components/schemas/IOPerformanceLineOfService_v1_1_1_IOPerformanceLineOfService
       description: Describe service option within the IO performance line of service.
       x-longDescription: This structure may be used to define a service option related
         to IO performance.

@@ -68,7 +68,7 @@ components:
             - null
           readOnly: true
         IOStatistics:
-          $ref: ./swordfish/IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
+          $ref: ./IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
           description: Statistics for this storage service.
           x-longDescription: The value shall represent IO statistics for this storage
             service.

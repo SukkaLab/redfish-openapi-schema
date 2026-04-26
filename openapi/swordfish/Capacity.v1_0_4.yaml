@@ -31,7 +31,7 @@ components:
             values for properties that this object contains shall conform to the Redfish
             Specification-described requirements.
         ProvidedCapacity:
-          $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_Capacity
+          $ref: ./Capacity.yaml#/components/schemas/Capacity_Capacity
           description: The amount of space that has been provided from the ProvidingDrives,
             ProvidingVolumes, ProvidingMemory or ProvidingPools.
           x-longDescription: The value shall be the amount of space that has been

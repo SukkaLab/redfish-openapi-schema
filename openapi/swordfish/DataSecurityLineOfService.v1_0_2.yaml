@@ -22,7 +22,7 @@ components:
           description: Policy for triggering an AntiVirus scan.
           items:
             oneOf:
-            - $ref: ./swordfish/DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_AntiVirusScanTrigger
+            - $ref: ./DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_AntiVirusScanTrigger
             - enum:
               - null
           readOnly: false
@@ -32,7 +32,7 @@ components:
         ChannelEncryptionStrength:
           description: Key size for transport channel encryption.
           oneOf:
-          - $ref: ./swordfish/DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_KeySize
+          - $ref: ./DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_KeySize
           - enum:
             - null
           readOnly: false
@@ -41,7 +41,7 @@ components:
         DataSanitizationPolicy:
           description: Data sanitization policy.
           oneOf:
-          - $ref: ./swordfish/DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_DataSanitizationPolicy
+          - $ref: ./DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_DataSanitizationPolicy
           - enum:
             - null
           readOnly: false
@@ -56,7 +56,7 @@ components:
         HostAuthenticationType:
           description: Authentication type for hosts (servers) or initiator endpoints.
           oneOf:
-          - $ref: ./swordfish/DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_AuthenticationType
+          - $ref: ./DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_AuthenticationType
           - enum:
             - null
           readOnly: false
@@ -68,7 +68,7 @@ components:
         MediaEncryptionStrength:
           description: Key size for media encryption.
           oneOf:
-          - $ref: ./swordfish/DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_KeySize
+          - $ref: ./DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_KeySize
           - enum:
             - null
           readOnly: false
@@ -86,7 +86,7 @@ components:
         SecureChannelProtocol:
           description: Protocol that provide encrypted communication.
           oneOf:
-          - $ref: ./swordfish/DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_SecureChannelProtocol
+          - $ref: ./DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_SecureChannelProtocol
           - enum:
             - null
           readOnly: false
@@ -95,7 +95,7 @@ components:
         UserAuthenticationType:
           description: Authentication type for users (or programs).
           oneOf:
-          - $ref: ./swordfish/DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_AuthenticationType
+          - $ref: ./DataSecurityLoSCapabilities.yaml#/components/schemas/DataSecurityLoSCapabilities_AuthenticationType
           - enum:
             - null
           readOnly: false

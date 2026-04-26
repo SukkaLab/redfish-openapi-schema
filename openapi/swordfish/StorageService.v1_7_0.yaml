@@ -258,7 +258,7 @@ components:
             of this service.
           x-versionAdded: v1_2_0
         IOStatistics:
-          $ref: ./swordfish/IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
+          $ref: ./IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
           deprecated: true
           description: Statistics for this StorageService.
           x-deprecatedReason: This property is deprecated in favor of the IOStatistics

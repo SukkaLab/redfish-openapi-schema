@@ -102,7 +102,7 @@ components:
             - null
           readOnly: true
         IOStatistics:
-          $ref: ./swordfish/IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
+          $ref: ./IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
           description: Statistics for this volume.
           x-longDescription: The value shall represent IO statistics for this volume.
           x-versionAdded: v1_1_0

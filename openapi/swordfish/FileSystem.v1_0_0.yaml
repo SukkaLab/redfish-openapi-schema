@@ -57,7 +57,7 @@ components:
           description: An array of supported IO access capabilities.
           items:
             oneOf:
-            - $ref: ./swordfish/DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
+            - $ref: ./DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
             - enum:
               - null
           readOnly: false
@@ -75,14 +75,14 @@ components:
             the file system in bytes.
           x-units: By
         Capacity:
-          $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_Capacity
+          $ref: ./Capacity.yaml#/components/schemas/Capacity_Capacity
           description: Capacity allocated to the file system.
           x-longDescription: The value of this property shall be the capacity allocated
             to the file system in bytes.
         CapacitySources:
           description: An array of capacity sources for the file system.
           items:
-            $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_CapacitySource
+            $ref: ./Capacity.yaml#/components/schemas/Capacity_CapacitySource
           readOnly: false
           type: array
           x-longDescription: This property shall be an array containing entries for
@@ -194,7 +194,7 @@ components:
             values for properties that this object contains shall conform to the Redfish
             Specification-described requirements.
         RemainingCapacity:
-          $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_Capacity
+          $ref: ./Capacity.yaml#/components/schemas/Capacity_Capacity
           deprecated: true
           description: Remaining capacity allocated to the file system.
           x-deprecatedReason: 'This property is deprecated in favor of the Capacity
@@ -204,7 +204,7 @@ components:
           x-longDescription: The value of this property shall be the remaining capacity
             allocated to the file system in bytes.
         ReplicaInfo:
-          $ref: ./swordfish/StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaInfo
+          $ref: ./StorageReplicaInfo.yaml#/components/schemas/StorageReplicaInfo_ReplicaInfo
           description: This value describes the replica attributes if this file system
             is a replica.
           x-longDescription: If this file system is a replica, this value shall describe

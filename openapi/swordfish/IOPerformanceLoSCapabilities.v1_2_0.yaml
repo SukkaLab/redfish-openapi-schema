@@ -129,7 +129,7 @@ components:
         SupportedLinesOfService:
           description: Collection of known and supported IOPerformanceLinesOfService.
           items:
-            $ref: ./swordfish/IOPerformanceLineOfService.yaml#/components/schemas/IOPerformanceLineOfService_IOPerformanceLineOfService
+            $ref: ./IOPerformanceLineOfService.yaml#/components/schemas/IOPerformanceLineOfService_IOPerformanceLineOfService
           readOnly: false
           type: array
           x-autoExpand: true

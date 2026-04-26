@@ -150,7 +150,7 @@ components:
         EncryptionTypes:
           description: The types of encryption used by this Volume.
           items:
-            $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_EncryptionTypes
+            $ref: ./Volume.yaml#/components/schemas/Volume_EncryptionTypes
           readOnly: false
           type: array
           x-longDescription: This property shall contain the types of encryption used
@@ -206,7 +206,7 @@ components:
           deprecated: true
           description: The type of this volume.
           oneOf:
-          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_VolumeType
+          - $ref: ./Volume.yaml#/components/schemas/Volume_VolumeType
           - enum:
             - null
           readOnly: true
