@@ -31,21 +31,21 @@ components:
       description: Describes a data protection service option.
       properties:
         '@odata.context':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_context
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_context
         '@odata.etag':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_etag
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_etag
         '@odata.id':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_id
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_id
         '@odata.type':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_type
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_type
         Description:
           oneOf:
-          - $ref: ./Resource.yaml#/components/schemas/Resource_Description
+          - $ref: ../Resource.yaml#/components/schemas/Resource_Description
           - enum:
             - null
           readOnly: true
         Id:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Id
+          $ref: ../Resource.yaml#/components/schemas/Resource_Id
           readOnly: true
         IsIsolated:
           description: The replica is in a separate fault domain.
@@ -63,10 +63,10 @@ components:
             the minimum required lifetime of the replica. Note: The maximum number
             of replicas can be determined using this value together with the replicaSchedule.'
         Name:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Name
+          $ref: ../Resource.yaml#/components/schemas/Resource_Name
           readOnly: true
         Oem:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ../Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties that this object contains shall conform to the Redfish
@@ -102,14 +102,14 @@ components:
             IsIsolated = false, failure of the domain is not a consideration.
           x-units: s
         ReplicaAccessLocation:
-          $ref: ./Resource.v1_3_0.yaml#/components/schemas/Resource_v1_3_0_Location
+          $ref: ../Resource.v1_3_0.yaml#/components/schemas/Resource_v1_3_0_Location
           description: Location that supplies data access to the replica.
           x-longDescription: 'This value shall be used if the data access location
             of the replica is required to be at a specific location.   Note 1: The
             location value may be granular.  Note 2: A value may be required for some
             regulatory compliance.'
         ReplicaClassOfService:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           description: The replica's class of service.
           readOnly: false
           x-longDescription: The value shall reference the class of service that defines
@@ -123,7 +123,7 @@ components:
           readOnly: false
           x-longDescription: The type of replica shall conform to this value.
         Schedule:
-          $ref: ./Schedule.yaml#/components/schemas/Schedule_Schedule
+          $ref: ../Schedule.yaml#/components/schemas/Schedule_Schedule
           description: A schedule for making periodic point in time replicas.
           x-longDescription: If a replica is made periodically, the value shall define
             the schedule.
@@ -152,7 +152,7 @@ components:
           x-longDescription: The value shall be the names of the replica.
           x-versionAdded: v1_1_0
         ReplicaSource:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           description: A resource to be replicated.
           x-longDescription: The value shall reference a resource to be replicated.
           x-versionAdded: v1_1_0

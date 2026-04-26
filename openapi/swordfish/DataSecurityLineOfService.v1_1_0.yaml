@@ -22,13 +22,13 @@ components:
       description: Describes data security service level requirements.
       properties:
         '@odata.context':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_context
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_context
         '@odata.etag':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_etag
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_etag
         '@odata.id':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_id
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_id
         '@odata.type':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_type
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_type
         Actions:
           $ref: '#/components/schemas/DataSecurityLineOfService_v1_1_0_Actions'
           description: The available actions for this resource.
@@ -72,7 +72,7 @@ components:
             policy.
         Description:
           oneOf:
-          - $ref: ./Resource.yaml#/components/schemas/Resource_Description
+          - $ref: ../Resource.yaml#/components/schemas/Resource_Description
           - enum:
             - null
           readOnly: true
@@ -86,7 +86,7 @@ components:
           x-longDescription: The enumeration literal shall specify the authentication
             type for hosts (servers) or initiator endpoints.
         Id:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Id
+          $ref: ../Resource.yaml#/components/schemas/Resource_Id
           readOnly: true
         MediaEncryptionStrength:
           description: Key size for media encryption.
@@ -98,10 +98,10 @@ components:
           x-longDescription: The enumeration literal shall specify a key size in a
             symmetric encryption algorithm for media encryption.
         Name:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Name
+          $ref: ../Resource.yaml#/components/schemas/Resource_Name
           readOnly: true
         Oem:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ../Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties that this object contains shall conform to the Redfish

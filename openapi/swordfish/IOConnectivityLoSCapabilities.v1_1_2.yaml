@@ -21,13 +21,13 @@ components:
       description: Describe IO Connectivity capabilities.
       properties:
         '@odata.context':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_context
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_context
         '@odata.etag':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_etag
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_etag
         '@odata.id':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_id
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_id
         '@odata.type':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_type
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_type
         Actions:
           $ref: '#/components/schemas/IOConnectivityLoSCapabilities_v1_1_2_Actions'
           description: The available actions for this resource.
@@ -36,15 +36,15 @@ components:
           x-versionAdded: v1_1_0
         Description:
           oneOf:
-          - $ref: ./Resource.yaml#/components/schemas/Resource_Description
+          - $ref: ../Resource.yaml#/components/schemas/Resource_Description
           - enum:
             - null
           readOnly: true
         Id:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Id
+          $ref: ../Resource.yaml#/components/schemas/Resource_Id
           readOnly: true
         Identifier:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Identifier
+          $ref: ../Resource.yaml#/components/schemas/Resource_Identifier
           description: The value identifies this resource.
           x-longDescription: The value identifies this resource. The value shall be
             unique within the managed ecosystem.
@@ -69,10 +69,10 @@ components:
           x-units: '[IO]/s'
           x-versionAdded: v1_1_0
         Name:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Name
+          $ref: ../Resource.yaml#/components/schemas/Resource_Name
           readOnly: true
         Oem:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ../Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties that this object contains shall conform to the Redfish
@@ -98,7 +98,7 @@ components:
           x-autoExpand: true
           x-longDescription: The collection shall contain known and supported IOConnectivityLinesOfService.
         SupportedLinesOfService@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
       required:
       - '@odata.id'
       - '@odata.type'

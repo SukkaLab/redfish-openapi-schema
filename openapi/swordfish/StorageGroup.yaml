@@ -31,7 +31,7 @@ components:
           x-longDescription: If present, the value is a SCSI Logical Unit Number for
             the Volume.
         Volume:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           description: A mapped Volume.
           readOnly: false
           x-longDescription: The value shall reference a mapped Volume.

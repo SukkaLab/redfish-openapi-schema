@@ -168,7 +168,7 @@ components:
       description: Add ability to manage spare capacity.
       properties:
         ClassOfService:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           description: The ClassOfService that this storage volume conforms to.
           readOnly: true
           x-longDescription: This property shall contain a reference to the ClassOfService
@@ -178,31 +178,31 @@ components:
           description: An array of references to the client Endpoints associated with
             this volume.
           items:
-            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: true
           type: array
           x-longDescription: The value of this property shall be references to the
             client Endpoints this volume is associated with.
           x-versionAdded: v1_4_0
         ClientEndpoints@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
         ConsistencyGroups:
           description: An array of references to the ConsistencyGroups associated
             with this volume.
           items:
-            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: true
           type: array
           x-longDescription: The value of this property shall be references to the
             ConsistencyGroups this volume is associated with.
           x-versionAdded: v1_4_0
         ConsistencyGroups@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
         DedicatedSpareDrives:
           description: An array of references to the drives which are dedicated spares
             for this volume.
           items:
-            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: false
           type: array
           x-longDescription: The value of this property shall be a reference to the
@@ -212,13 +212,13 @@ components:
             this Volume.
           x-versionAdded: v1_2_0
         DedicatedSpareDrives@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
         Drives:
           description: An array of references to the drives which contain this volume.
             This will reference Drives that either wholly or only partly contain this
             volume.
           items:
-            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: true
           type: array
           x-longDescription: The value of this property shall be a reference to the
@@ -227,15 +227,15 @@ components:
             which are currently members of the Volume, not hot spare Drives which
             are not currently a member of the volume.
         Drives@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
         Oem:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ../Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties contained in this object shall conform to the Redfish
             Specification-described requirements.
         OwningStorageService:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           description: A pointer to the StorageService that owns or contains this
             volume.
           readOnly: true
@@ -246,18 +246,18 @@ components:
           description: An array of references to the server Endpoints associated with
             this volume.
           items:
-            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: true
           type: array
           x-longDescription: The value of this property shall be references to the
             server Endpoints this volume is associated with.
           x-versionAdded: v1_4_0
         ServerEndpoints@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
         SpareResourceSets:
           description: An array of references to SpareResourceSets.
           items:
-            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: false
           type: array
           x-longDescription: Each referenced SpareResourceSet shall contain resources
@@ -265,19 +265,19 @@ components:
             having a compatible type.
           x-versionAdded: v1_3_0
         SpareResourceSets@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
         StorageGroups:
           description: An array of references to the StorageGroups associated with
             this volume.
           items:
-            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: true
           type: array
           x-longDescription: The value of this property shall be references to the
             StorageGroups this volume is associated with.
           x-versionAdded: v1_4_0
         StorageGroups@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
       type: object
       x-patternProperties:
         ^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\.[a-zA-Z_][a-zA-Z0-9_]*$:
@@ -293,7 +293,7 @@ components:
       additionalProperties: false
       properties:
         AssociatedFeaturesRegistry:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           description: A reference to the task associated with the operation if any.
           readOnly: true
         OperationName:
@@ -517,13 +517,13 @@ components:
         LUN, or other logical storage entity for any system.
       properties:
         '@odata.context':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_context
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_context
         '@odata.etag':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_etag
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_etag
         '@odata.id':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_id
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_id
         '@odata.type':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_type
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_type
         AccessCapabilities:
           description: Supported IO access capabilities.
           items:
@@ -541,7 +541,7 @@ components:
           x-longDescription: The Actions property shall contain the available actions
             for this resource.
         AllocatedPools:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           description: An array of references to StoragePools allocated from this
             Volume.
           readOnly: true
@@ -585,7 +585,7 @@ components:
             resource.
           x-versionAdded: v1_1_0
         CapacitySources@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
         Compressed:
           description: Indicator of whether or not the Volume has compression enabled.
           nullable: true
@@ -604,7 +604,7 @@ components:
           x-versionAdded: v1_4_0
         Description:
           oneOf:
-          - $ref: ./Resource.yaml#/components/schemas/Resource_Description
+          - $ref: ../Resource.yaml#/components/schemas/Resource_Description
           - enum:
             - null
           readOnly: true
@@ -637,12 +637,12 @@ components:
           x-longDescription: The value shall represent IO statistics for this volume.
           x-versionAdded: v1_2_0
         Id:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Id
+          $ref: ../Resource.yaml#/components/schemas/Resource_Id
           readOnly: true
         Identifiers:
           description: The Durable names for the volume.
           items:
-            $ref: ./Resource.yaml#/components/schemas/Resource_Identifier
+            $ref: ../Resource.yaml#/components/schemas/Resource_Identifier
           type: array
           x-longDescription: This property shall contain a list of all known durable
             names for the associated volume.
@@ -714,10 +714,10 @@ components:
             a specific storage volume implementation.
           x-versionAdded: v1_1_0
         Name:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Name
+          $ref: ../Resource.yaml#/components/schemas/Resource_Name
           readOnly: true
         Oem:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ../Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties that this object contains shall conform to the Redfish
@@ -800,20 +800,20 @@ components:
         ReplicaTargets:
           description: The resources that are target replicas of this source.
           items:
-            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: true
           type: array
           x-longDescription: The value shall reference the target replicas that are
             sourced by this replica.
           x-versionAdded: v1_3_0
         ReplicaTargets@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
         Status:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Status
+          $ref: ../Resource.yaml#/components/schemas/Resource_Status
           description: The property contains the status of the Volume.
           x-longDescription: The property shall contain the status of the Volume.
         StorageGroups:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           description: An array of references to Storage Groups that includes this
             volume.
           readOnly: true

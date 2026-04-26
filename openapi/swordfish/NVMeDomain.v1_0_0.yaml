@@ -21,15 +21,15 @@ components:
         AssociatedDomains:
           description: An array of links to associated domains.
           items:
-            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: true
           type: array
           x-longDescription: This property shall contain an array of links to resources
             of type NVMeDomain that represent associated domains.
         AssociatedDomains@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
         Oem:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ../Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties contained in this object shall conform to the Redfish
@@ -46,13 +46,13 @@ components:
       description: Properties for the Domain.
       properties:
         '@odata.context':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_context
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_context
         '@odata.etag':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_etag
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_etag
         '@odata.id':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_id
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_id
         '@odata.type':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_type
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_type
         Actions:
           $ref: '#/components/schemas/NVMeDomain_v1_0_0_Actions'
           description: The available actions for this resource.
@@ -61,28 +61,28 @@ components:
         AvailableFirmwareImages:
           description: A collection of available firmware images.
           items:
-            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           type: array
           x-longDescription: A collection of available firmware images.
         AvailableFirmwareImages@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
         Description:
           oneOf:
-          - $ref: ./Resource.yaml#/components/schemas/Resource_Description
+          - $ref: ../Resource.yaml#/components/schemas/Resource_Description
           - enum:
             - null
           readOnly: true
         DomainMembers:
           description: The members of the domain.
           items:
-            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: false
           type: array
           x-longDescription: The members of the domain.
         DomainMembers@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
         Id:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Id
+          $ref: ../Resource.yaml#/components/schemas/Resource_Id
           readOnly: true
         Links:
           $ref: '#/components/schemas/NVMeDomain_v1_0_0_Links'
@@ -100,16 +100,16 @@ components:
             endurance group in bytes of this NVMe Domain.
           x-units: By
         Name:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Name
+          $ref: ../Resource.yaml#/components/schemas/Resource_Name
           readOnly: true
         Oem:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ../Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties that this object contains shall conform to the Redfish
             Specification-described requirements.
         Status:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Status
+          $ref: ../Resource.yaml#/components/schemas/Resource_Status
           description: The status and health of the resource and its subordinate or
             dependent resources.
           x-longDescription: This property shall contain any status or health properties

@@ -99,7 +99,7 @@ components:
           x-longDescription: The ConsistencyType enumeration literal shall indicate
             the consistency type used by the source and its associated target group.
         DataProtectionLineOfService:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           description: A pointer to the DataProtection line of service element that
             describes this replica.
           readOnly: false
@@ -127,7 +127,7 @@ components:
             shall be an average of the PercentSynced across all members of the group.
           x-units: '%'
         Replica:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           description: Deprecated - Use Source Replica. The resource that is the source
             of this replica.
           readOnly: true
@@ -622,27 +622,27 @@ components:
       description: Defines the characteristics of a Storage Replica.
       properties:
         '@odata.context':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_context
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_context
         '@odata.etag':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_etag
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_etag
         '@odata.id':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_id
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_id
         '@odata.type':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_type
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_type
         Description:
           oneOf:
-          - $ref: ./Resource.yaml#/components/schemas/Resource_Description
+          - $ref: ../Resource.yaml#/components/schemas/Resource_Description
           - enum:
             - null
           readOnly: true
         Id:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Id
+          $ref: ../Resource.yaml#/components/schemas/Resource_Id
           readOnly: true
         Name:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Name
+          $ref: ../Resource.yaml#/components/schemas/Resource_Name
           readOnly: true
         Oem:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ../Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties that this object contains shall conform to the Redfish

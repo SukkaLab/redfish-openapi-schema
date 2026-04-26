@@ -21,13 +21,13 @@ components:
       description: An instance of a shared set of files with a common directory structure.
       properties:
         '@odata.context':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_context
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_context
         '@odata.etag':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_etag
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_etag
         '@odata.id':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_id
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_id
         '@odata.type':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_type
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_type
         Actions:
           $ref: '#/components/schemas/FileShare_v1_1_1_Actions'
           description: The available actions for this resource.
@@ -61,12 +61,12 @@ components:
             can include Read, Write, and/or Execute.
         Description:
           oneOf:
-          - $ref: ./Resource.yaml#/components/schemas/Resource_Description
+          - $ref: ../Resource.yaml#/components/schemas/Resource_Description
           - enum:
             - null
           readOnly: true
         EthernetInterfaces:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           description: A link to the collection of Ethernet interfaces that provide
             access to this file share.
           readOnly: true
@@ -132,7 +132,7 @@ components:
             the file sharing protocols supported by this file share. Each entry shall
             specify a file sharing protocol supported by the file system.
         Id:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Id
+          $ref: ../Resource.yaml#/components/schemas/Resource_Id
           readOnly: true
         Links:
           $ref: '#/components/schemas/FileShare_v1_1_1_Links'
@@ -160,10 +160,10 @@ components:
             entries, percent = (SUM(AllocatedBytes) - SUM(ConsumedBytes))/SUM(AllocatedBytes).'
           x-units: '%'
         Name:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Name
+          $ref: ../Resource.yaml#/components/schemas/Resource_Name
           readOnly: true
         Oem:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ../Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties that this object contains shall conform to the Redfish
@@ -187,7 +187,7 @@ components:
             access is allowed by the file share. The default value for this property
             is false.
         Status:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Status
+          $ref: ../Resource.yaml#/components/schemas/Resource_Status
           description: Indicates the status of the file share.
           x-longDescription: This value of this property shall indicate the status
             of the file share.
@@ -217,18 +217,18 @@ components:
         related to this resource.
       properties:
         ClassOfService:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           description: A link to the ClassOfService for this file share.
           x-longDescription: This value shall be a link to the ClassOfService for
             this file share.
         FileSystem:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           description: A link to the file system containing the file share.
           readOnly: true
           x-longDescription: The value shall be a link to the file system containing
             the file share.
         Oem:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ../Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties contained in this object shall conform to the Redfish

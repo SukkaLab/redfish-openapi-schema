@@ -23,7 +23,7 @@ components:
         related to this resource.
       properties:
         Oem:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ../Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties contained in this object shall conform to the Redfish
@@ -31,11 +31,11 @@ components:
         OnHandSpares:
           description: The type of resources in the set.
           items:
-            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           type: array
           x-longDescription: The type of resources in the set.
         OnHandSpares@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
         ReplacementSpareSets:
           description: Other spare sets that can be utilized to replenish this spare
             set.
@@ -45,7 +45,7 @@ components:
           x-longDescription: Other spare sets that can be utilized to replenish this
             spare set.
         ReplacementSpareSets@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
       type: object
       x-longDescription: The Links property, as described by the Redfish Specification,
         shall contain references to resources that are related to, but not contained
@@ -68,13 +68,13 @@ components:
       description: A description of a set of spare resources.
       properties:
         '@odata.context':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_context
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_context
         '@odata.etag':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_etag
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_etag
         '@odata.id':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_id
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_id
         '@odata.type':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_type
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_type
         Actions:
           $ref: '#/components/schemas/SpareResourceSet_v1_0_2_Actions'
           description: The available actions for this resource.
@@ -83,12 +83,12 @@ components:
           x-versionAdded: v1_0_1
         Description:
           oneOf:
-          - $ref: ./Resource.yaml#/components/schemas/Resource_Description
+          - $ref: ../Resource.yaml#/components/schemas/Resource_Description
           - enum:
             - null
           readOnly: true
         Id:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Id
+          $ref: ../Resource.yaml#/components/schemas/Resource_Id
           readOnly: true
         Links:
           $ref: '#/components/schemas/SpareResourceSet_v1_0_2_Links'
@@ -97,16 +97,16 @@ components:
           x-longDescription: This structure shall contain references to resources
             that are not contained within this resource.
         Name:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Name
+          $ref: ../Resource.yaml#/components/schemas/Resource_Name
           readOnly: true
         Oem:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ../Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties that this object contains shall conform to the Redfish
             Specification-described requirements.
         OnHandLocation:
-          $ref: ./Resource.v1_5_0.yaml#/components/schemas/Resource_v1_5_0_Location
+          $ref: ../Resource.v1_5_0.yaml#/components/schemas/Resource_v1_5_0_Location
           description: Location where this set of spares is kept.
           x-longDescription: The location where this set of spares is kept.
         OnLine:

@@ -5,34 +5,34 @@ components:
       description: A Collection of Drive resource instances.
       properties:
         '@odata.context':
-          $ref: ./odata-v4.yaml#/definitions/context
+          $ref: ../odata-v4.yaml#/definitions/context
         '@odata.etag':
-          $ref: ./odata-v4.yaml#/definitions/etag
+          $ref: ../odata-v4.yaml#/definitions/etag
         '@odata.id':
-          $ref: ./odata-v4.yaml#/definitions/id
+          $ref: ../odata-v4.yaml#/definitions/id
         '@odata.type':
-          $ref: ./odata-v4.yaml#/definitions/type
+          $ref: ../odata-v4.yaml#/definitions/type
         Description:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Description
+          $ref: ../Resource.yaml#/components/schemas/Resource_Description
           nullable: true
           readOnly: true
         Members:
           description: Contains the members of this drive collection.
           items:
-            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: true
           type: array
           x-longDescription: The value of each entry of this property shall reference
             a Drive resource.
         Members@odata.count:
-          $ref: ./odata-v4.yaml#/definitions/count
+          $ref: ../odata-v4.yaml#/definitions/count
         Members@odata.nextLink:
-          $ref: ./odata-v4.yaml#/definitions/nextLink
+          $ref: ../odata-v4.yaml#/definitions/nextLink
         Name:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Name
+          $ref: ../Resource.yaml#/components/schemas/Resource_Name
           readOnly: true
         Oem:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ../Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties contained in this object shall conform to the Redfish

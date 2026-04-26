@@ -5,36 +5,36 @@ components:
       description: A Collection of StoragePool resource instances.
       properties:
         '@odata.context':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_context
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_context
         '@odata.etag':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_etag
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_etag
         '@odata.id':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_id
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_id
         '@odata.type':
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_type
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_type
         Description:
           oneOf:
-          - $ref: ./Resource.yaml#/components/schemas/Resource_Description
+          - $ref: ../Resource.yaml#/components/schemas/Resource_Description
           - enum:
             - null
           readOnly: true
         Members:
           description: The value of each member references a StoragePool resource.
           items:
-            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ../odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: true
           type: array
           x-longDescription: The value of each member entry shall reference a StoragePool
             resource.
         Members@odata.count:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_count
         Members@odata.nextLink:
-          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_nextLink
+          $ref: ../odata-v4.yaml#/components/schemas/odata-v4_nextLink
         Name:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Name
+          $ref: ../Resource.yaml#/components/schemas/Resource_Name
           readOnly: true
         Oem:
-          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ../Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties contained in this object shall conform to the Redfish
