@@ -136,7 +136,7 @@ components:
           description: Supported IO access capabilities.
           items:
             oneOf:
-            - $ref: http://redfish.dmtf.org/schemas/swordfish/v1/DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
+            - $ref: ./swordfish/DataStorageLoSCapabilities.yaml#/components/schemas/DataStorageLoSCapabilities_StorageAccessCapability
             - enum:
               - null
           readOnly: false
@@ -167,7 +167,7 @@ components:
             unit of the associated volume.
           x-units: By
         Capacity:
-          $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Capacity.yaml#/components/schemas/Capacity_Capacity
+          $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_Capacity
           description: Capacity utilization.
           x-longDescription: Information about the utilization of capacity allocated
             to this storage volume.
@@ -184,7 +184,7 @@ components:
         CapacitySources:
           description: An array of space allocations to this volume.
           items:
-            $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Capacity.yaml#/components/schemas/Capacity_CapacitySource
+            $ref: ./swordfish/Capacity.yaml#/components/schemas/Capacity_CapacitySource
           readOnly: false
           type: array
           x-autoExpand: true
@@ -210,13 +210,13 @@ components:
         EncryptionTypes:
           description: The types of encryption used by this Volume.
           items:
-            $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.yaml#/components/schemas/Volume_EncryptionTypes
+            $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_EncryptionTypes
           readOnly: false
           type: array
           x-longDescription: This property shall contain the types of encryption used
             by this Volume.
         IOStatistics:
-          $ref: http://redfish.dmtf.org/schemas/swordfish/v1/IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
+          $ref: ./swordfish/IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
           description: Statistics for this volume.
           x-longDescription: The value shall represent IO statistics for this volume.
           x-versionAdded: v1_2_0
@@ -313,7 +313,7 @@ components:
             value.
           x-versionAdded: v1_2_0
         ReplicaInfo:
-          $ref: http://redfish.dmtf.org/schemas/swordfish/v1/StorageReplicaInfo.v1_4_0.yaml#/components/schemas/StorageReplicaInfo_v1_4_0_ReplicaInfo
+          $ref: ./swordfish/StorageReplicaInfo.v1_4_0.yaml#/components/schemas/StorageReplicaInfo_v1_4_0_ReplicaInfo
           description: Describes this storage volume in its role as a target replica.
           x-longDescription: This property shall describe the replica relationship
             between this storage volume and a corresponding source volume.
@@ -334,7 +334,7 @@ components:
           deprecated: true
           description: The type of this volume.
           oneOf:
-          - $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.yaml#/components/schemas/Volume_VolumeType
+          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_VolumeType
           - enum:
             - null
           readOnly: true

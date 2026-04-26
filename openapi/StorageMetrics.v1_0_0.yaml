@@ -66,7 +66,7 @@ components:
             - null
           readOnly: true
         IOStatistics:
-          $ref: http://redfish.dmtf.org/schemas/swordfish/v1/IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
+          $ref: ./swordfish/IOStatistics.yaml#/components/schemas/IOStatistics_IOStatistics
           description: Statistics for this storage system.
           x-longDescription: The value shall contain the I/O statistics for this storage
             system.

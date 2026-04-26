@@ -34795,7 +34795,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -34822,14 +34822,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -34852,7 +34852,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -34874,7 +34874,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -34906,14 +34906,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -34934,14 +34934,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -34982,7 +34982,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -35038,7 +35038,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -35092,7 +35092,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -35146,7 +35146,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -35202,7 +35202,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -35256,7 +35256,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -35310,7 +35310,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -35366,7 +35366,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -35422,7 +35422,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -35478,7 +35478,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -35532,7 +35532,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -53029,7 +53029,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -53062,14 +53062,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -53092,7 +53092,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -53114,7 +53114,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -53152,14 +53152,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -53180,14 +53180,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -53234,7 +53234,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -53296,7 +53296,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -53356,7 +53356,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -53416,7 +53416,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -53478,7 +53478,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -53538,7 +53538,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -53598,7 +53598,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -53660,7 +53660,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -53722,7 +53722,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -53784,7 +53784,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -53844,7 +53844,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -91841,7 +91841,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -91868,14 +91868,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -91898,7 +91898,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -91920,7 +91920,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -91952,14 +91952,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -91980,14 +91980,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -92028,7 +92028,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -92084,7 +92084,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -92138,7 +92138,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -92192,7 +92192,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -92248,7 +92248,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -92302,7 +92302,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -92356,7 +92356,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -92412,7 +92412,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -92468,7 +92468,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -92524,7 +92524,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -92578,7 +92578,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -110075,7 +110075,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -110108,14 +110108,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -110138,7 +110138,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -110160,7 +110160,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -110198,14 +110198,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -110226,14 +110226,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -110280,7 +110280,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -110342,7 +110342,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -110402,7 +110402,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -110462,7 +110462,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -110524,7 +110524,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -110584,7 +110584,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -110644,7 +110644,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -110706,7 +110706,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -110768,7 +110768,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -110830,7 +110830,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -110890,7 +110890,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -114339,7 +114339,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -114366,14 +114366,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -114396,7 +114396,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -114418,7 +114418,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -114450,14 +114450,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -114478,14 +114478,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -114526,7 +114526,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -114582,7 +114582,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -114636,7 +114636,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -114690,7 +114690,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -114746,7 +114746,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -114800,7 +114800,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -114854,7 +114854,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -114910,7 +114910,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -114966,7 +114966,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -115022,7 +115022,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -115076,7 +115076,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -116968,7 +116968,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -117001,14 +117001,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -117031,7 +117031,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -117053,7 +117053,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -117091,14 +117091,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -117119,14 +117119,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -117173,7 +117173,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -117235,7 +117235,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -117295,7 +117295,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -117355,7 +117355,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -117417,7 +117417,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -117477,7 +117477,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -117537,7 +117537,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -117599,7 +117599,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -117661,7 +117661,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -117723,7 +117723,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -117783,7 +117783,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -118777,7 +118777,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -118804,14 +118804,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -118834,7 +118834,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -118856,7 +118856,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -118888,14 +118888,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -118916,14 +118916,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -118964,7 +118964,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -119020,7 +119020,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -119074,7 +119074,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -119128,7 +119128,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -119184,7 +119184,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -119238,7 +119238,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -119292,7 +119292,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -119348,7 +119348,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -119404,7 +119404,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -119460,7 +119460,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -119514,7 +119514,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -119587,7 +119587,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -119620,14 +119620,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -119650,7 +119650,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -119672,7 +119672,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -119710,14 +119710,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -119738,14 +119738,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -119792,7 +119792,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -119854,7 +119854,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -119914,7 +119914,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -119974,7 +119974,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -120036,7 +120036,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -120096,7 +120096,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -120156,7 +120156,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -120218,7 +120218,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -120280,7 +120280,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -120342,7 +120342,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -120402,7 +120402,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -120440,7 +120440,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -120461,14 +120461,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -120491,7 +120491,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -120513,7 +120513,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -120539,14 +120539,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -120567,14 +120567,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -120609,7 +120609,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -120659,7 +120659,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -120707,7 +120707,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -120755,7 +120755,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -120805,7 +120805,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -120853,7 +120853,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -120901,7 +120901,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -120951,7 +120951,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -121001,7 +121001,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -121051,7 +121051,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -121099,7 +121099,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -121172,7 +121172,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -121199,14 +121199,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -121229,7 +121229,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -121251,7 +121251,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -121283,14 +121283,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -121311,14 +121311,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -121359,7 +121359,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -121415,7 +121415,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -121469,7 +121469,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -121523,7 +121523,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -121579,7 +121579,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -121633,7 +121633,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -121687,7 +121687,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -121743,7 +121743,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -121799,7 +121799,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -121855,7 +121855,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -121909,7 +121909,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -122323,7 +122323,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -122356,14 +122356,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -122386,7 +122386,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -122408,7 +122408,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -122446,14 +122446,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -122474,14 +122474,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -122528,7 +122528,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -122590,7 +122590,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -122650,7 +122650,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -122710,7 +122710,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -122772,7 +122772,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -122832,7 +122832,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -122892,7 +122892,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -122954,7 +122954,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -123016,7 +123016,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -123078,7 +123078,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -123138,7 +123138,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -123176,7 +123176,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -123203,14 +123203,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -123233,7 +123233,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -123255,7 +123255,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -123287,14 +123287,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -123315,14 +123315,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -123363,7 +123363,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -123419,7 +123419,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -123473,7 +123473,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -123527,7 +123527,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -123583,7 +123583,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -123637,7 +123637,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -123691,7 +123691,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -123747,7 +123747,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -123803,7 +123803,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -123859,7 +123859,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -123913,7 +123913,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -123951,7 +123951,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -123990,14 +123990,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -124055,7 +124055,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -124088,14 +124088,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -124118,7 +124118,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -124140,7 +124140,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -124178,14 +124178,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -124206,14 +124206,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -124260,7 +124260,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -124322,7 +124322,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -124382,7 +124382,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -124442,7 +124442,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -124504,7 +124504,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -124564,7 +124564,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -124624,7 +124624,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -124686,7 +124686,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -124748,7 +124748,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -124810,7 +124810,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -124870,7 +124870,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -124908,7 +124908,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -124929,14 +124929,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -124959,7 +124959,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -124981,7 +124981,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -125007,14 +125007,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -125035,14 +125035,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -125077,7 +125077,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -125127,7 +125127,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -125175,7 +125175,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -125223,7 +125223,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -125273,7 +125273,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -125321,7 +125321,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -125369,7 +125369,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -125419,7 +125419,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -125469,7 +125469,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -125519,7 +125519,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -125567,7 +125567,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -125640,7 +125640,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -125673,14 +125673,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -125703,7 +125703,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -125725,7 +125725,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -125763,14 +125763,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -125791,14 +125791,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -125845,7 +125845,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -125907,7 +125907,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -125967,7 +125967,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -126027,7 +126027,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -126089,7 +126089,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -126149,7 +126149,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -126209,7 +126209,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -126271,7 +126271,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -126333,7 +126333,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -126395,7 +126395,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -126455,7 +126455,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -140801,7 +140801,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -140834,14 +140834,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -140864,7 +140864,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -140886,7 +140886,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -140924,14 +140924,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -140952,14 +140952,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -141006,7 +141006,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -141068,7 +141068,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -141128,7 +141128,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -141188,7 +141188,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -141250,7 +141250,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -141310,7 +141310,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -141370,7 +141370,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -141432,7 +141432,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -141494,7 +141494,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -141556,7 +141556,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -141616,7 +141616,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -144771,7 +144771,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -144810,14 +144810,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -144840,7 +144840,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -144862,7 +144862,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -144906,14 +144906,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -144934,14 +144934,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -144994,7 +144994,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -145062,7 +145062,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -145128,7 +145128,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -145194,7 +145194,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -145262,7 +145262,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -145328,7 +145328,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -145394,7 +145394,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -145462,7 +145462,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -145530,7 +145530,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -145598,7 +145598,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -145664,7 +145664,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -146754,7 +146754,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -146787,14 +146787,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -146817,7 +146817,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -146839,7 +146839,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -146877,14 +146877,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -146905,14 +146905,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -146959,7 +146959,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -147021,7 +147021,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -147081,7 +147081,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -147141,7 +147141,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -147203,7 +147203,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -147263,7 +147263,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -147323,7 +147323,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -147385,7 +147385,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -147447,7 +147447,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -147509,7 +147509,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -147569,7 +147569,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -147648,7 +147648,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -147687,14 +147687,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -147717,7 +147717,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -147739,7 +147739,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -147783,14 +147783,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -147811,14 +147811,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -147871,7 +147871,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -147939,7 +147939,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -148005,7 +148005,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -148071,7 +148071,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -148139,7 +148139,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -148205,7 +148205,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -148271,7 +148271,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -148339,7 +148339,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -148407,7 +148407,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -148475,7 +148475,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -148541,7 +148541,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':
@@ -148579,7 +148579,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
+                $ref: ./swordfish/VolumeCollection.yaml#/components/schemas/VolumeCollection_VolumeCollection
           description: The response contains a representation of the VolumeCollection
             resource
         default:
@@ -148606,14 +148606,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '201':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: A resource of type Volume has been created
         '202':
           content:
@@ -148636,7 +148636,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -148658,7 +148658,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         default:
           content:
@@ -148690,14 +148690,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -148718,14 +148718,14 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
         required: true
       responses:
         '200':
           content:
             application/json:
               schema:
-                $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
+                $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_Volume
           description: The response contains a representation of the Volume resource
         '202':
           content:
@@ -148766,7 +148766,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_AssignReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -148822,7 +148822,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ChangeRAIDLayoutRequestBody
         required: true
       responses:
         '200':
@@ -148876,7 +148876,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CheckConsistencyRequestBody
         required: true
       responses:
         '200':
@@ -148930,7 +148930,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_CreateReplicaTargetRequestBody
         required: true
       responses:
         '200':
@@ -148986,7 +148986,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ForceEnableRequestBody
         required: true
       responses:
         '200':
@@ -149040,7 +149040,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_InitializeRequestBody
         required: true
       responses:
         '200':
@@ -149094,7 +149094,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_RemoveReplicaRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -149150,7 +149150,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ResumeReplicationRequestBody
         required: true
       responses:
         '200':
@@ -149206,7 +149206,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_ReverseReplicationRelationshipRequestBody
         required: true
       responses:
         '200':
@@ -149262,7 +149262,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SplitReplicationRequestBody
         required: true
       responses:
         '200':
@@ -149316,7 +149316,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
+              $ref: ./swordfish/Volume.v1_10_2.yaml#/components/schemas/Volume_v1_10_2_SuspendReplicationRequestBody
         required: true
       responses:
         '200':

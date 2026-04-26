@@ -708,7 +708,7 @@ components:
             Task that represents the task associated with the operation.
           x-versionAdded: v1_1_0
         Operation:
-          $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.yaml#/components/schemas/Volume_OperationType
+          $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_OperationType
           description: The type of the operation.
           nullable: true
           readOnly: true

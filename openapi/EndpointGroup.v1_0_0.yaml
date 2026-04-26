@@ -13,7 +13,7 @@ components:
         '@odata.type':
           $ref: ./odata.v4_0_3.yaml#/components/schemas/odata_v4_0_3_type
         AccessState:
-          $ref: http://redfish.dmtf.org/schemas/swordfish/v1/EndpointGroup.yaml#/components/schemas/EndpointGroup_AccessState
+          $ref: ./swordfish/EndpointGroup.yaml#/components/schemas/EndpointGroup_AccessState
           description: Access State for this group.
           nullable: true
           readOnly: false

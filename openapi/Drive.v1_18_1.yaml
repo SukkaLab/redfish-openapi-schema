@@ -754,7 +754,7 @@ components:
         Operation:
           description: The type of the operation.
           oneOf:
-          - $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.yaml#/components/schemas/Volume_OperationType
+          - $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_OperationType
           - enum:
             - null
           readOnly: true

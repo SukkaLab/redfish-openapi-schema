@@ -454,7 +454,7 @@ components:
           description: This object describes the RAID Types supported by the storage
             controller.
           items:
-            $ref: http://redfish.dmtf.org/schemas/swordfish/v1/Volume.yaml#/components/schemas/Volume_RAIDType
+            $ref: ./swordfish/Volume.yaml#/components/schemas/Volume_RAIDType
             nullable: true
           readOnly: true
           type: array
