@@ -47,7 +47,7 @@ components:
           description: An array of resources in the service containing the set that
             are related to support for the specified feature.
           items:
-            $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: true
           type: array
           x-longDescription: The value shall contain an array of resources in the
@@ -56,7 +56,7 @@ components:
             the `Resources` property for the specified feature.
           x-versionAdded: v1_2_0
         Resources@odata.count:
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
         Version:
           description: The Version of the feature.
           nullable: true
@@ -87,13 +87,13 @@ components:
         entry.
       properties:
         '@odata.context':
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_context
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_context
         '@odata.etag':
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_etag
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_etag
         '@odata.id':
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_id
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_id
         '@odata.type':
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_type
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_type
         Actions:
           $ref: '#/components/schemas/FeaturesRegistry_v1_2_0_Actions'
           description: The available actions for this resource.
@@ -101,7 +101,7 @@ components:
             for this resource.
         Description:
           oneOf:
-          - $ref: http://redfish.dmtf.org/schemas/v1/Resource.yaml#/components/schemas/Resource_Description
+          - $ref: ./Resource.yaml#/components/schemas/Resource_Description
           - enum:
             - null
           readOnly: true
@@ -140,7 +140,7 @@ components:
             on the OEMFeaturesUsed property.
           x-versionAdded: v1_2_0
         Id:
-          $ref: http://redfish.dmtf.org/schemas/v1/Resource.yaml#/components/schemas/Resource_Id
+          $ref: ./Resource.yaml#/components/schemas/Resource_Id
           readOnly: true
         Language:
           description: This is the RFC 5646 compliant language code for the registry.
@@ -149,7 +149,7 @@ components:
           x-longDescription: The value of this property shall be a string consisting
             of an RFC 5646 language code.
         Name:
-          $ref: http://redfish.dmtf.org/schemas/v1/Resource.yaml#/components/schemas/Resource_Name
+          $ref: ./Resource.yaml#/components/schemas/Resource_Name
           readOnly: true
         OEMFeaturesUsed:
           description: An array containing all the OEM feature names defined in the
@@ -163,7 +163,7 @@ components:
             names defined in the registry.
           x-versionAdded: v1_2_0
         Oem:
-          $ref: http://redfish.dmtf.org/schemas/v1/Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties that this object contains shall conform to the Redfish

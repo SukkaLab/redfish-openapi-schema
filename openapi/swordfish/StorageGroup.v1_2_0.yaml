@@ -168,16 +168,16 @@ components:
           x-longDescription: An array of references to StorageGroups are incorporated
             into this StorageGroup.
         ChildStorageGroups@odata.count:
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
         ClassOfService:
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_idRef
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
           description: The ClassOfService that all storage in this StorageGroup conforms
             to.
           readOnly: false
           x-longDescription: The ClassOfService that all storage in this StorageGroup
             conforms to.
         Oem:
-          $ref: http://redfish.dmtf.org/schemas/v1/Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties contained in this object shall conform to the Redfish
@@ -191,7 +191,7 @@ components:
           x-longDescription: An array of references to StorageGroups that incorporate
             this StorageGroup.
         ParentStorageGroups@odata.count:
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
       type: object
       x-longDescription: This structure shall contain references to resources that
         are not contained within this resource.
@@ -214,17 +214,17 @@ components:
         a group.
       properties:
         '@odata.context':
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_context
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_context
         '@odata.etag':
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_etag
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_etag
         '@odata.id':
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_id
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_id
         '@odata.type':
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_type
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_type
         AccessState:
           description: AccessState for this storage group.
           oneOf:
-          - $ref: http://redfish.dmtf.org/schemas/v1/EndpointGroup.yaml#/components/schemas/EndpointGroup_AccessState
+          - $ref: ./EndpointGroup.yaml#/components/schemas/EndpointGroup_AccessState
           - enum:
             - null
           readOnly: false
@@ -266,7 +266,7 @@ components:
         ClientEndpointGroups:
           description: Groups of client endpoints in this storage group.
           items:
-            $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: false
           type: array
           x-longDescription: An array of references to groups of client-side endpoints
@@ -275,18 +275,18 @@ components:
             endpoint.  If empty, the implementation shall not allow access to the
             storage via any client-side endpoint.
         ClientEndpointGroups@odata.count:
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
         Description:
           oneOf:
-          - $ref: http://redfish.dmtf.org/schemas/v1/Resource.yaml#/components/schemas/Resource_Description
+          - $ref: ./Resource.yaml#/components/schemas/Resource_Description
           - enum:
             - null
           readOnly: true
         Id:
-          $ref: http://redfish.dmtf.org/schemas/v1/Resource.yaml#/components/schemas/Resource_Id
+          $ref: ./Resource.yaml#/components/schemas/Resource_Id
           readOnly: true
         Identifier:
-          $ref: http://redfish.dmtf.org/schemas/v1/Resource.yaml#/components/schemas/Resource_Identifier
+          $ref: ./Resource.yaml#/components/schemas/Resource_Identifier
           description: The value identifies this resource.
           x-longDescription: The value shall be unique within the managed ecosystem.
         Links:
@@ -317,10 +317,10 @@ components:
             members are in a consistent state. The default value for this property
             is false.
         Name:
-          $ref: http://redfish.dmtf.org/schemas/v1/Resource.yaml#/components/schemas/Resource_Name
+          $ref: ./Resource.yaml#/components/schemas/Resource_Name
           readOnly: true
         Oem:
-          $ref: http://redfish.dmtf.org/schemas/v1/Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties that this object contains shall conform to the Redfish
@@ -337,7 +337,7 @@ components:
           deprecated: true
           description: The resources that are target replicas of this source.
           items:
-            $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: true
           type: array
           x-deprecatedReason: Deprecated in favor of using the ConsistencyGroup for
@@ -346,11 +346,11 @@ components:
             sourced by this replica.
           x-versionAdded: v1_1_1
         ReplicaTargets@odata.count:
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
         ServerEndpointGroups:
           description: Groups of server endpoints in this storage group.
           items:
-            $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: false
           type: array
           x-longDescription: An array of references to groups of server-side endpoints
@@ -359,16 +359,16 @@ components:
             any server-side endpoint.  If empty, the implementation shall not allow
             access to the storage via any server-side endpoint.
         ServerEndpointGroups@odata.count:
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
         Status:
-          $ref: http://redfish.dmtf.org/schemas/v1/Resource.yaml#/components/schemas/Resource_Status
+          $ref: ./Resource.yaml#/components/schemas/Resource_Status
           description: The property contains the status of the StorageGroup.
           x-longDescription: The property shall contain the status of the StorageGroup.
         Volumes:
           deprecated: true
           description: Volumes in this storage group.
           items:
-            $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_idRef
+            $ref: ./odata-v4.yaml#/components/schemas/odata-v4_idRef
           readOnly: false
           type: array
           x-deprecatedReason: These references are replaced by the MappedVolumes array
@@ -376,7 +376,7 @@ components:
           x-longDescription: An array of references to volumes managed by this storage
             group.
         Volumes@odata.count:
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_count
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_count
         VolumesAreExposed:
           description: Storage volumes are exposed to paths defined by the client
             and server endpoints.

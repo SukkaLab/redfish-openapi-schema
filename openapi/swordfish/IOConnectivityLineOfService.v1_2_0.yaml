@@ -22,18 +22,18 @@ components:
       description: A service option within the IO Connectivity line of service.
       properties:
         '@odata.context':
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_context
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_context
         '@odata.etag':
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_etag
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_etag
         '@odata.id':
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_id
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_id
         '@odata.type':
-          $ref: http://redfish.dmtf.org/schemas/v1/odata-v4.yaml#/components/schemas/odata-v4_type
+          $ref: ./odata-v4.yaml#/components/schemas/odata-v4_type
         AccessProtocols:
           description: SupportedAccessProtocols.
           items:
             oneOf:
-            - $ref: http://redfish.dmtf.org/schemas/v1/Protocol.yaml#/components/schemas/Protocol_Protocol
+            - $ref: ./Protocol.yaml#/components/schemas/Protocol_Protocol
             - enum:
               - null
           readOnly: false
@@ -51,12 +51,12 @@ components:
           x-versionAdded: v1_2_0
         Description:
           oneOf:
-          - $ref: http://redfish.dmtf.org/schemas/v1/Resource.yaml#/components/schemas/Resource_Description
+          - $ref: ./Resource.yaml#/components/schemas/Resource_Description
           - enum:
             - null
           readOnly: true
         Id:
-          $ref: http://redfish.dmtf.org/schemas/v1/Resource.yaml#/components/schemas/Resource_Id
+          $ref: ./Resource.yaml#/components/schemas/Resource_Id
           readOnly: true
         MaxBytesPerSecond:
           description: The maximum Bandwidth in bytes per second that a connection
@@ -81,10 +81,10 @@ components:
           x-units: '[IO]/s'
           x-versionAdded: v1_1_0
         Name:
-          $ref: http://redfish.dmtf.org/schemas/v1/Resource.yaml#/components/schemas/Resource_Name
+          $ref: ./Resource.yaml#/components/schemas/Resource_Name
           readOnly: true
         Oem:
-          $ref: http://redfish.dmtf.org/schemas/v1/Resource.yaml#/components/schemas/Resource_Oem
+          $ref: ./Resource.yaml#/components/schemas/Resource_Oem
           description: The OEM extension property.
           x-longDescription: This property shall contain the OEM extensions.  All
             values for properties that this object contains shall conform to the Redfish
