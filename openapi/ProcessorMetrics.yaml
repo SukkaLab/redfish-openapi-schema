@@ -1,0 +1,12 @@
+components:
+  schemas:
+    ProcessorMetrics_ProcessorMetrics:
+      $ref: ./ProcessorMetrics.v1_7_0.yaml#/components/schemas/ProcessorMetrics_v1_7_0_ProcessorMetrics
+      description: The `ProcessorMetrics` schema contains usage and health statistics
+        for a processor.
+      x-longDescription: This resource contains the processor metrics for a single
+        processor in a Redfish implementation.
+title: '#ProcessorMetrics.ProcessorMetrics'
+x-copyright: Copyright 2014-2025 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright
+x-language: en
+x-owningEntity: DMTF
